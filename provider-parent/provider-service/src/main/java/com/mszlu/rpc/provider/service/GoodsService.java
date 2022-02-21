@@ -1,11 +1,11 @@
 package com.mszlu.rpc.provider.service;
 
-import com.mszlu.rpc.provider.service.modal.Goods;
+import com.mszlu.rpc.provider.service.model.Goods;
 
 public interface GoodsService {
 
     /**
-     * 根据商品id 查询商品
+     * Query the Goods according to the good id
      * @param id
      * @return
      */

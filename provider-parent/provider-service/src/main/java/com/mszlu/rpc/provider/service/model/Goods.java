@@ -1,4 +1,4 @@
-package com.mszlu.rpc.provider.service.modal;
+package com.mszlu.rpc.provider.service.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,10 +11,10 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class Goods {
 
-    //商品id
+    //Goods id
     private Long id;
-    //商品名称
+    //Goods name
     private String goodsName;
-    //商品价格
+    //Good price
     private BigDecimal price;
 }

@@ -11,6 +11,7 @@
         <module>consumer-parent</module>
         <module>provider-parent/provider-service-impl</module>
         <module>provider-parent</module>
+        <module>ms-rpc</module>
     </modules>
 
 
